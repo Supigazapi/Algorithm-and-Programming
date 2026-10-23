@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	int n;
+	char c = '*';
+	scanf("%d", &n);
+	for (int i=0 ; i<n ; i++){
+		for (int i=0 ; i<n ; i++){
+			printf("%c", c);
+	} printf("\n");
+	}
+	return 0;
+}
